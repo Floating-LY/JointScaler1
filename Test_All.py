@@ -12,7 +12,7 @@ base_args = ("--freq 'm' --is_training 1 --enc_in " + str(dim) +
             " --features 'M' --max_level 3 --root_path " + data_folder)
 
 seq_lengths = [72,144,288]
-models = ['harmony']
+models = ['JointScaler']
 
 csv_files = [f for f in os.listdir(data_folder) if f.endswith('.csv')]
 

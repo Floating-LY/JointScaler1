@@ -1,13 +1,13 @@
 import os
 import torch
-from model import harmony
+from model import JointScaler
 
 
 class Exp_Basic(object):
     def __init__(self, args):
         self.args = args
         self.model_dict = {
-            'harmony': harmony
+            'JointScaler': JointScaler
         }
 
         self.device = self._acquire_device()
