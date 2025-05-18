@@ -1,6 +1,6 @@
 # Joint Scaler
 
-This repository provides an example code implementation. It introduces a novel system for efficient cloud resource scaling by addressing key challenges in cloud service resource allocation through hierarchical multi-indicator distribution forecasting and Bayesian decision-making.
+This repository provides an example code implementation. It introduces a novel system for efficient cloud resource scaling by addressing key challenges in real time service resource allocation through hierarchical multi-indicator distribution forecasting and Bayesian decision-making.
 
 ## Dataset
 
